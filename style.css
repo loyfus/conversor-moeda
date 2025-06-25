@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< 2aagw9-codex/adicionar-design-moderno-com-glassmorphism
   font-family: 'Inter', Arial, sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> main
 }
 
 body {
@@ -10,8 +14,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< 2aagw9-codex/adicionar-design-moderno-com-glassmorphism
   padding: 2rem;
   background: linear-gradient(135deg, #1e3c72, #2a5298);
+=======
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+>>>>>>> main
   color: #fff;
 }
 
@@ -28,12 +36,20 @@ body {
 }
 
 #card-fundo {
+<<<<<<< 2aagw9-codex/adicionar-design-moderno-com-glassmorphism
   width: min(100%, 450px);
+=======
+  width: min(90vw, 480px);
+>>>>>>> main
   padding: 2rem;
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.3);
+<<<<<<< 2aagw9-codex/adicionar-design-moderno-com-glassmorphism
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+=======
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+>>>>>>> main
   backdrop-filter: blur(15px);
   margin-bottom: 1.5rem;
 }
@@ -73,18 +89,32 @@ select {
 }
 
 #arrow {
+<<<<<<< 2aagw9-codex/adicionar-design-moderno-com-glassmorphism
   padding: 0 0.5rem;
   transform: rotate(90deg);
+=======
+  padding: 0 1rem;
+  transform: rotate(270deg);
+>>>>>>> main
 }
 
 #arrow span {
   display: block;
+<<<<<<< 2aagw9-codex/adicionar-design-moderno-com-glassmorphism
   width: 0.8rem;
   height: 0.8rem;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   transform: rotate(45deg);
   margin: -2px;
+=======
+  width: 1rem;
+  height: 1rem;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: rotate(45deg);
+  margin: -3px;
+>>>>>>> main
   animation: animate 2s infinite;
 }
 
@@ -133,9 +163,12 @@ select {
 }
 
 @media (max-width: 768px) {
+<<<<<<< 2aagw9-codex/adicionar-design-moderno-com-glassmorphism
   body {
     padding: 1rem;
   }
+=======
+>>>>>>> main
   #titulo-home {
     font-size: 2rem;
   }
